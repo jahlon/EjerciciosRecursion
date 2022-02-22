@@ -1,0 +1,21 @@
+﻿using EjerciciosRecursión;
+
+Recursion.ImprimirNumerosNaturalesHasta(10);
+Console.WriteLine("\n");
+Recursion.ImprimirNumerosDesdeNHasta1(10);
+Console.WriteLine("\n");
+Console.Write($"Suma primero 10 naturales: {Recursion.SumarPrimeroNNaturales(10)}");
+Console.WriteLine("\n");
+Recursion.ImprimirDigitosDelNumero(3479);
+Console.WriteLine("\n");
+Console.WriteLine($"Cantidad de dígitos en número 65743: {Recursion.ContarDigitosEnNumero(65743)}");
+Console.WriteLine("\n");
+Recursion.ImprimirNumerosParesEnRango(11, 67);
+Console.WriteLine("\n");
+Console.Write("Ingrese una palabra: ");
+string palabra = Console.ReadLine();
+Console.WriteLine($"{palabra} es palíndromo?: {Recursion.EsPalindromo(palabra)}");
+Console.WriteLine("\n");
+Console.Write("Ingrese un número: ");
+int numero = int.Parse(Console.ReadLine());
+Console.WriteLine($"{numero}! = {Recursion.Factorial(numero)}");
